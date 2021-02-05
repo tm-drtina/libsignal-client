@@ -4,6 +4,7 @@
 //
 
 #![allow(clippy::missing_safety_doc)]
+#![deny(clippy::unwrap_used)]
 
 use aes_gcm_siv::Aes256GcmSiv;
 use libsignal_bridge_macros::*;

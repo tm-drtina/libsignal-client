@@ -4,6 +4,7 @@
 //
 
 #![deny(unsafe_code)]
+#![deny(clippy::unwrap_used)]
 
 mod address;
 mod consts;
