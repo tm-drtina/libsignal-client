@@ -129,10 +129,6 @@ impl ScannableFingerprint {
             ));
         }
 
-        if combined.local_fingerprint.is_none() || combined.remote_fingerprint.is_none() {
-            return Err(SignalProtocolError::FingerprintParsingError);
-        }
-
         let same1 = combined
             .local_fingerprint
             .as_ref()
