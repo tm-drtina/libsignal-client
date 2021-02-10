@@ -4,3 +4,7 @@
 //
 
 // WARNING: this file was automatically generated
+
+interface Wrapper<T> {
+  readonly _nativeHandle: T
+}
