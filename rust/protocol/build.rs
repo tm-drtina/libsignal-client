@@ -5,6 +5,7 @@
 
 fn main() {
     let protos = [
+        "src/proto/device_messages.proto",
         "src/proto/fingerprint.proto",
         "src/proto/sealed_sender.proto",
         "src/proto/service.proto",

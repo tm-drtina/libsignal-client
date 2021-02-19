@@ -33,6 +33,7 @@ mod identity_key;
 mod kdf;
 mod proto;
 mod protocol;
+mod provisioning;
 mod ratchet;
 mod sealed_sender;
 mod sender_keys;
@@ -55,6 +56,7 @@ pub use {
     },
     identity_key::{IdentityKey, IdentityKeyPair},
     kdf::HKDF,
+    provisioning::{ProvisioningUuid, ProvisionEnvelope, ProvisionMessage},
     protocol::{
         extract_decryption_error_message_from_serialized_content, CiphertextMessage,
         CiphertextMessageType, DecryptionErrorMessage, PlaintextContent, PreKeySignalMessage,
